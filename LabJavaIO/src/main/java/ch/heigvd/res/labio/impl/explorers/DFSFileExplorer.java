@@ -37,7 +37,7 @@ public class DFSFileExplorer implements IFileExplorer {
     }
     else if(currentFile.isFile()) {
 
-        visitor.visit(currentFile);
+        //visitor.visit(currentFile);
         return;
     }
 
