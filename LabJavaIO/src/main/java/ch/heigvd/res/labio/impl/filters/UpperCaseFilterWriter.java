@@ -19,7 +19,6 @@ public class UpperCaseFilterWriter extends FilterWriter {
 
    str =  str.toUpperCase();
     super.write(str,off,len);
-    //throw new UnsupportedOperationException("The student has not implemented this method yet.");
   }
 
   @Override
@@ -29,7 +28,6 @@ public class UpperCaseFilterWriter extends FilterWriter {
       cbuf[i]= Character.toUpperCase(cbuf[i]);
 
     super.write(cbuf,off,len);
-   // throw new UnsupportedOperationException("The student has not implemented this method yet.");
   }
 
   @Override
@@ -38,9 +36,6 @@ public class UpperCaseFilterWriter extends FilterWriter {
     c =Character.toUpperCase(c);
 
     super.write(c);
-
-
-    //throw new UnsupportedOperationException("The student has not implemented this method yet.");
   }
 
 }

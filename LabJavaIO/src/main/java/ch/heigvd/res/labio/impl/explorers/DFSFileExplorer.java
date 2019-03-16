@@ -21,7 +21,6 @@ public class DFSFileExplorer implements IFileExplorer {
   @Override
   public void explore(File rootDirectory, IFileVisitor visitor) {
 
-
     File currentFile = rootDirectory;
     visitor.visit(currentFile);
 
@@ -37,7 +36,6 @@ public class DFSFileExplorer implements IFileExplorer {
     }
     else if(currentFile.isFile()) {
 
-        //visitor.visit(currentFile);
         return;
     }
 

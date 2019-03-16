@@ -42,8 +42,6 @@ public class FileNumberingFilterWriter extends FilterWriter {
 
     str=str.substring(off,off+ len);
 
-
-
     String[] newLines = new String[2];
 
     newLines = Utils.getNextLine(str);
@@ -59,16 +57,8 @@ public class FileNumberingFilterWriter extends FilterWriter {
 
    line= line.concat(newLines[1]);
 
-
-
     super.write(line,0,line.length());
     line = "";
-
-
-
-
-
-
   }
 
   @Override
@@ -88,14 +78,9 @@ public class FileNumberingFilterWriter extends FilterWriter {
       super.write('\t');
 
       flag_debut=false;
-
     }
 
-
-
     if(flag_fin){
-
-
 
       if(c == '\n') {
 

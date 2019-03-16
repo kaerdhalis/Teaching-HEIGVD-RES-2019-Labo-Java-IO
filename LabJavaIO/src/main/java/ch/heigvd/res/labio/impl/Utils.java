@@ -46,17 +46,8 @@ public class Utils {
       newLines[1] = lines.substring(val + 1);
       return newLines;
     }
-
-
-
-
-
-
+    
     return newLines;
-
-
-
-    //throw new UnsupportedOperationException("The student has not implemented this method yet.");
   }
 
 }
